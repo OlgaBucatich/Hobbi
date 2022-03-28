@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/stylehobbi.css">
+</head>
+<body>
+    <div id="content">
+    <h3>Способ получения</h3>
+    <form action="#">
+    <!-- <br> -->
+    <p><input type="text" placeholder="Город" required></p>
+    <p><input type="text" placeholder="Почта России" required></p>
+<p> <select > 
+    <!-- placeholder="Почта России" -->
+    <option  value="Почта России"> Москва</option>
+    <option value="Санкт-Петербург"> Санкт-Петербург</option>
+    <option value="Смоленск"> Смоленск</option>
+    <option value="Калининград"> Калининград</option>
+</select></p>
+<p><input class="input_text1" type="text" placeholder="Улица" required>
+    <input class="input_text2" type="text" placeholder="Дом" required>
+    <input class="input_text2" type="text" placeholder="Квартира" required>
+    <input class="input_text2" type="text" placeholder="Индекс" required>
+</p>
+<p><input class="input_text3" type="text" placeholder="Добавить комментарий"></p>
+</form>
+
+<h3>Данные получателя</h3>
+    <form action="#">
+    <p><input class="input_text4" type="text" placeholder="Фамилия" required>
+        <input class="input_text4" type="text" placeholder="Имя" required>
+        <input class="input_text4" type="text" placeholder="Отчество" required>
+            </p>
+    <p><input class="input_text4" type="tel" placeholder="Номер телефона" required></p>
+    <p class="p_text"><label for="">По этому номеру телефона мы с вяжемся с вами для подтверждения заказа</label></p>
+
+     <p><input class="input_text5" type="email" placeholder="E-mail" required></p>
+    <p class="p_text"><label for="">На эту почту вам придет письмо с составом заказа, а так же трэк-номер для его отслеживания</label></p>
+
+    <p><input id="checkbox" class="custom-checkbox" type="checkbox" name="c1" checked>
+    <label  class="label_text1" for="checkbox">Подписаться на рассылку новинок и акций
+            </label></p>
+        </form>
+        <h3>Данные получателя</h3>
+        <form action="#">
+        <input  class="custom-radio" id="radio" type="radio" name="r1">
+        <label class="label_text1" for="radio">Оплата при получении наличными или картой</label>
+        <p>
+        <input class="custom-radio" id="radio" type="radio" name="r1" checked>
+        <label class="label_text1" for="radio">Оплата банковско й картой онлайн</label>
+    </p>
+</form>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans:wght@400;600;700&family=Raleway:wght@100;400;700&family=Roboto:wght@100;400&display=swap');
+#content {border: #E8E8E8;
+font-family:  'Montserrat', sans-serif;
+font-size: 28px;
+font-weight: 600;
+color: #424242;
+margin-left: 150px;
+box-sizing: border-box;}
+
+h3{border: #E8E8E8;
+    font-family:  'Montserrat', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+margin: 0;
+margin-bottom: 32px;}
+
+input {border: 1px solid #BDBDBD;
+    border-radius: 83px;
+width: 520px;
+height: 50px;
+font-family:  'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color:  #BDBDBD;
+    padding-left: 24px;
+    box-sizing: border-box;
+}
+select {border: 1px solid #BDBDBD;
+    border-radius: 83px;
+width: 520px;
+height: 50px;
+font-family:  'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color:  #BDBDBD;
+    padding: 0 24px;
+    box-sizing: border-box;
+}
+.input_text1 {width: 254px;
+margin-right: 16px;}
+.input_text2 {width: 130px;
+    margin-right: 16px;}
+.input_text3 {width: 692px;
+margin-bottom: 64px;}
+.input_text4 {width: 220px;
+    margin-right: 16px;}
+    .input_text5 {width: 456px;}
+    .input_text5 {width: 456px;}
+
+
+    label {   font-family:  'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        color:  #424242;
+         margin: 0;}
+
+    .p_text {margin: 0;}
+
+    .custom-checkbox {
+        position: absolute;
+        z-index: -1;
+        opacity: 0;
+      }
+      .custom-checkbox+label {
+        display: inline-flex;
+        align-items: center;
+        user-select: none;
+      }
+      .custom-checkbox+label::before {
+        content: '';
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        flex-shrink: 0;
+        flex-grow: 0;
+        border: 1px solid rgb(231, 196, 214);
+        border-radius: 6.64px;
+        margin-right: 0.5em;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 50% 50%;
+      }
+      .custom-checkbox:checked+label::before {
+        border-color: rgb(231, 196, 214);
+        background-color: rgb(231, 196, 214);
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+      }
+      /* для элемента input c type="radio" */
+  .custom-radio {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+  /* для элемента label связанного с .custom-radio */
+  .custom-radio+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+  }
+  /* создание в label псевдоэлемента  before со следующими стилями */
+  .custom-radio+label::before {
+    content: '';
+    display: inline-block;
+    width: 31px;
+    height: 31px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid rgb(231, 196, 214);
+    border-radius: 50%;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+  }
+  /* стили при наведении курсора на радио */
+  .custom-radio:not(:disabled):not(:checked)+label:hover::before {
+    border-color: #b3d7ff;
+  }
+  /* стили для активной радиокнопки (при нажатии на неё) */
+  .custom-radio:not(:disabled):active+label::before {
+    background-color: rgb(231, 196, 214);
+    border-color: rgb(231, 196, 214);
+  }
+  /* стили для радиокнопки, находящейся в фокусе */
+  .custom-radio:focus+label::before {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  /* стили для радиокнопки, находящейся в фокусе и не находящейся в состоянии checked */
+  .custom-radio:focus:not(:checked)+label::before {
+    border-color: rgb(231, 196, 214);
+  }
+  /* стили для радиокнопки, находящейся в состоянии checked */
+  .custom-radio:checked+label::before {
+    border-color: rgb(231, 196, 214);
+    background-color: rgb(231, 196, 214);
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+  }
+  
+
+
+    .label_text1{font-family:  'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color:  #424242;
+        margin: 0;
+        padding: 0;
+        line-height: 20px;}
+
+      
